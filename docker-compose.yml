@@ -1,0 +1,27 @@
+version: '2'
+services:
+  base: &base
+    image: resume
+    build:
+      context: .
+      dockerfile: ./Dockerfile
+  app0:
+    << : *base
+    ports:
+      - "8000:80"
+  app1:
+    << : *base
+    ports:
+      - "8001:80"
+  app2:
+    << : *base
+    ports:
+      - "8002:80"
+  app3:
+    << : *base
+    ports:
+      - "8003:80"
+  app4:
+    << : *base
+    ports:
+      - "8004:80"
