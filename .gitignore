@@ -1,3 +1,6 @@
+# Not minified CSS
+public/stylesheet/notion.css
+
 # WebStorm
 .idea
 
