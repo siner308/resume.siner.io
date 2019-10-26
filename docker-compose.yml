@@ -5,8 +5,6 @@ services:
     build:
       context: .
       dockerfile: ./Dockerfile
-  app0:
-    << : *base
     ports:
       - "8000:80"
   app1:
