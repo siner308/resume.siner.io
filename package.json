@@ -10,7 +10,9 @@
     "ip": "^1.1.5",
     "path": "^0.12.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "yuicompressor": "^2.4.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
